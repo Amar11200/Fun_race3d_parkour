@@ -1,0 +1,47 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 30088)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 8796)
+VBCSCompiler prewarm took 34.26 ms
+Built from '6000.6/staging' branch; Version is '6000.6.6f1 (d20c9ac777da) revision 13765786'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::Module] Trying to connect to existing licensing client channel...
+OS: 'Windows 11  (10.0.26340) CoreSingleLanguage' Language: 'en' Physical Memory: 16024 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-21T09:25:43Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aptha" at "2026-10-21T09:25:43.7518233Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 7312, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              31f823e681664e489286706d9006de81
+  Correlation Id:          b2dd63ba32088b2dbfeb8f03ace91344
+  External correlation Id: 9020440011926280158
+  Machine Id:              tmb8INP940L4ZGgAUJFoahxOvbQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-aptha" (connect: 0.00s, validation: 0.08s, handshake: 0.25s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aptha-notifications" at "2026-10-21T09:25:44.0848461Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-P35S-ZYC4-D9H8-WJ9Z-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-11-27T13:54:21Z
+[Licensing::Module] License group:
+  Id: 13469980487098-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+
+COMMAND LINE ARGUMENTS:
+D:\6000.6.6f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+d:\My project (10)
+-executeMethod
+DashMasters.Editor.DashMastersSceneBuilder.RebuildAllScenes
+-logFile
+d:\My project (10)\unity_build.log
+Successfully changed project path to: d:\My project (10)
+D:/My project (10)
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 1
